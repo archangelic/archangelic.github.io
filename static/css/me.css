@@ -101,9 +101,6 @@ a.contact-method:hover {
   justify-content: center;
 }
 
-.emojithing {
-  margin-top: 20px;
-}
 
 @media (max-width: 480px) {
   .main p {
