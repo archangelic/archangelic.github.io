@@ -1,11 +1,141 @@
-html {
-  position: relative;
-  min-height: 100%;
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: lightgrey;
+  margin: 40px auto;
+  padding: 0 10px;
+  max-width: 650px;
+  font-size: 18px;
+  line-height: 1.6;
 }
 
-body {
-  margin-bottom: 30px;
-  background-color: #dadada;
+h1, h2, h3 { line-height: 1.2; }
+
+h1 { margin: 60px 0 10px; }
+
+h2 { margin: 50px 0 10px; }
+
+h3 { margin: 30px 0 10px; }
+
+h1 a {
+  color: white;
+  background-color: #e34234;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-style: italic;
+  padding: 5px;
+}
+
+
+h1 span{
+  color: white;
+  background-color: #e34234;
+  text-transform: uppercase;
+  font-style: italic;
+  padding: 5px;
+}
+
+h2 span{
+  color: white;
+  background-color: #e34234;
+  text-transform: uppercase;
+  font-style: italic;
+  padding: 5px;
+}
+
+h3 span {
+  color: white;
+  background-color: black;
+  text-transform: uppercase;
+  font-style: italic;
+  padding: 5px;
+  font-weight: bold;
+}
+
+
+h1 a:visited {
+  color: white;
+}
+
+
+a {
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: white;
+  font-style: italic;
+  background-color: black;
+}
+
+hr {
+  border-color: #ce46e8;
+}
+
+.center {
+  text-align: center;
+  display: inline-block;
+}
+
+.thought {
+  display: inline-block;
+  width: 50em;
+  text-align: left;
+}
+
+.thought h1 {
+  text-align: center;
+}
+
+.nav {
+  align: center;
+  margin: 0px 0px 8px 0px;
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.nav ul li {
+  float: left;
+  padding: 8px;
+}
+
+.nav ul li a {
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 8px;
+}
+
+.nav ul li a:hover {
+  color: black;
+  background-color: white;
+}
+
+.container img {
+  width: 100%;
+}
+::-moz-selection {
+  color: white;
+  background: black;
+}
+::selection {
+  color: white;
+  background: black;
 }
 
 .img-circle {
@@ -14,106 +144,8 @@ body {
   margin-right: 20px;
 }
 
-.contact-method {
-  color: lightgrey;
-}
-
-a.contact-method:hover {
-  color: white;
-}
-
-.jumbotron {
-  background-color: rgb(33, 39, 40);
-  color: white;
-  font-family: "ubuntu mono", monospace;
-  margin-bottom: 0px;
-  padding-bottom: 20px;
-  padding-top: 20px;
-}
-
-.jumbotron h1 {
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-.jumbotron h3 {
-  margin: 1px;
-}
-
-.jumbotron p {
-  margin: 1px;
-}
-
-.nav {
-  font-family: "ubuntu mono", monospace;
-  margin-top: 1px;
-}
-
-.nav li {
-  background-color: rgb(33, 39, 40);
-}
-
-.nav li a {
-  color: white;
-}
-
-.nav li a:hover{
-  background-color: dimgrey;
-}
-
-.main {
-  font-family: "ubuntu mono", monospace;
-}
-
-.main p {
-  font-size: 20px;
-  padding-left: 20%;
-  padding-right: 20%;
-  text-align: center;
-}
-
-.main p.project {
-  padding-left: 10%;
-  padding-right: 10%;
-}
-
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 30px;
-  background-color: rgb(33, 39, 40);
-}
-
-.cnt-footer {
-  width: auto;
-  padding: 0 15px;
-}
-
-.footer-text {
-  color: white;
-  margin: 5px;
-}
-
 .information {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-
-@media (max-width: 480px) {
-  .main p {
-    padding-left: 0;
-    padding-right: 0;
-  }
-  .img-circle {
-    float: none;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .information {
-    align-items: center;
-  }
 }
