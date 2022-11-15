@@ -1,0 +1,39 @@
+body {
+    margin: 40px auto;
+    max-width: 650px;
+    line-height: 1.6;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    padding: 0 10px;
+    font-family: monospace;
+}
+
+a {
+    color: white
+}
+
+a:hover {
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1.2
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    background-color: black;
+    border: 1px solid white;
+}
+
+div.description{
+    text-align: center;
+}
