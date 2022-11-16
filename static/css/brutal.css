@@ -7,7 +7,7 @@ body {
     background-color: black;
     padding: 0 10px;
     font-family: monospace;
-    background-image: url('/static/images/shuttle.png');
+    background-image: url('/static/images/space.png');
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
