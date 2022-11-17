@@ -7,7 +7,7 @@ body {
     background-color: black;
     padding: 0 10px;
     font-family: monospace;
-    background-image: url('/static/images/space.png');
+    background-image: url('../images/space.png');
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -27,7 +27,7 @@ a:hover {
 h1,
 h2,
 h3 {
-    line-height: 1.2
+    padding: 0 10px 0 10px;
 }
 
 h1 {
@@ -37,8 +37,13 @@ h1 {
 div {
     background-color: black;
     border: 1px solid white;
+    margin-bottom: 20px;
 }
 
 div.description{
     text-align: center;
+}
+
+p {
+    padding: 0 10px 0 10px;
 }
